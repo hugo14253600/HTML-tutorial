@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação da Tag &lt;form&gt;</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .example-form {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .example-form code {
+            display: block;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explicação da Tag &lt;form&gt;</h1>
+        <p>A tag <code>&lt;form&gt;</code> é usada para criar um formulário HTML para a coleta de dados do usuário. Ele pode conter elementos como campos de texto, botões de envio, caixas de seleção, etc.</p>
+        <h2>Atributos Comuns:</h2>
+        <ul>
+            <li><code>action</code>: Especifica a URL para a qual os dados do formulário serão enviados.</li>
+            <li><code>method</code>: Especifica o método HTTP a ser usado ao enviar os dados do formulário (geralmente "GET" ou "POST").</li>
+            <li><code>enctype</code>: Especifica o tipo de codificação usado para os dados do formulário (usado principalmente com o método "POST").</li>
+        </ul>
+        <h2>Exemplo de Uso:</h2>
+        <p>Veja um exemplo de como utilizar a tag <code>&lt;form&gt;</code>:</p>
+        <div class="example-form">
+            <code>
+&lt;form action="/submit_form" method="POST"&gt;<br>
+    &lt;label for="nome"&gt;Nome:&lt;/label&gt;<br>
+    &lt;input type="text" id="nome" name="nome"&gt;&lt;br&gt;<br>
+    &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;<br>
+    &lt;input type="submit" value="Enviar"&gt;<br>
+&lt;/form&gt;
+            </code>
+        </div>
+        <h2>Localização:</h2>
+        <p>A tag <code>&lt;form&gt;</code> pode ser colocada em qualquer lugar dentro do corpo (<code>&lt;body&gt;</code>) do documento HTML.</p>
+        <h2>Importância:</h2>
+        <p>Usar a tag <code>&lt;form&gt;</code> é essencial para a criação de formulários que permitem a interação do usuário com a página web, como o envio de informações, pesquisas, registros, etc.</p>
+    </div>
+</body>
+</html>

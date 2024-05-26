@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação da Tag &lt;video&gt;</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .example-video {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .example-video video {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explicação da Tag &lt;video&gt;</h1>
+        <p>A tag <code>&lt;video&gt;</code> é usada para incorporar vídeos em uma página HTML. Ela suporta várias funcionalidades, como controle de reprodução, legendas e múltiplas fontes de vídeo.</p>
+        <h2>Atributos Comuns:</h2>
+        <ul>
+            <li><code>src</code>: Define o caminho para o arquivo de vídeo.</li>
+            <li><code>controls</code>: Adiciona controles de reprodução (play, pause, etc.).</li>
+            <li><code>autoplay</code>: Faz o vídeo iniciar automaticamente quando a página é carregada.</li>
+            <li><code>loop</code>: Faz o vídeo repetir após terminar.</li>
+            <li><code>muted</code>: Inicia o vídeo sem som.</li>
+            <li><code>poster</code>: Define uma imagem a ser exibida antes de o vídeo começar a tocar.</li>
+        </ul>
+        <h2>Exemplo de Uso:</h2>
+        <p>Veja um exemplo de como utilizar a tag <code>&lt;video&gt;</code>:</p>
+        <div class="example-video">
+            <video controls>
+                <source src="https://www.youtube.com/watch" type="video/mp4">
+                Seu navegador não suporta o elemento <code>video</code>.
+            </video>
+        </div>
+        <h2>Compatibilidade:</h2>
+        <p>A tag <code>&lt;video&gt;</code> é suportada pela maioria dos navegadores modernos, mas é uma boa prática fornecer múltiplas fontes de vídeo (por exemplo, MP4, WebM) para garantir compatibilidade ampla.</p>
+    </div>
+</body>
+</html>

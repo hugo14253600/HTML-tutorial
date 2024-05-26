@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação da Tag &lt;script&gt;</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .example-script {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .example-script code {
+            display: block;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explicação da Tag &lt;script&gt;</h1>
+        <p>A tag <code>&lt;script&gt;</code> é usada para incorporar ou referenciar scripts de JavaScript em um documento HTML. Ela pode ser usada para adicionar funcionalidades dinâmicas e interatividade à página.</p>
+        <h2>Atributos Comuns:</h2>
+        <ul>
+            <li><code>src</code>: Especifica o URL do arquivo de script externo.</li>
+            <li><code>type</code>: Especifica o tipo de script. O valor padrão é "text/javascript".</li>
+            <li><code>async</code>: Especifica que o script deve ser executado de forma assíncrona.</li>
+            <li><code>defer</code>: Especifica que o script deve ser executado após o documento ser analisado.</li>
+        </ul>
+        <h2>Exemplo de Uso:</h2>
+        <p>Veja alguns exemplos de como utilizar a tag <code>&lt;script&gt;</code>:</p>
+        <div class="example-script">
+            <code>
+&lt;!-- Script interno --&gt;<br>
+&lt;script&gt;<br>
+    console.log('Olá, mundo!');<br>
+&lt;/script&gt;<br><br>
+&lt;!-- Script externo --&gt;<br>
+&lt;script src="script.js"&gt;&lt;/script&gt;
+            </code>
+        </div>
+        <h2>Localização:</h2>
+        <p>A tag <code>&lt;script&gt;</code> pode ser colocada no <code>&lt;head&gt;</code> ou no <code>&lt;body&gt;</code> do documento HTML. Scripts que afetam a renderização da página geralmente são colocados no final do <code>&lt;body&gt;</code> para não bloquear o carregamento da página.</p>
+        <h2>Importância:</h2>
+        <p>Usar a tag <code>&lt;script&gt;</code> permite adicionar interatividade e funcionalidades dinâmicas às páginas web, tornando-as mais interativas e úteis para os usuários.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação da Tag &lt;img&gt;</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .example-img {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explicação da Tag &lt;img&gt;</h1>
+        <p>A tag <code>&lt;img&gt;</code> é usada para incorporar uma imagem em um documento HTML. Esta tag é vazia, ou seja, não possui uma tag de fechamento.</p>
+        <h2>Exemplo de Uso:</h2>
+        <p>Veja um exemplo de como utilizar a tag <code>&lt;img&gt;</code>:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Título da Página&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Minha Imagem Favorita&lt;/h1&gt;
+        &lt;img src="exemplo.jpg" alt="Descrição da Imagem" width="500" height="300"&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        <p>Quando renderizado em um navegador, o código acima resulta no seguinte:</p>
+        <div class="example-img">
+            <h1>Minha Imagem Favorita</h1>
+            <img src="im alt="Descrição da Imagem" width="500" height="300">
+        </div>
+        <h2>Atributos Comuns:</h2>
+        <p>A tag <code>&lt;img&gt;</code> possui vários atributos comuns, incluindo:</p>
+        <ul>
+            <li><code>src</code>: Define a URL da imagem.</li>
+            <li><code>alt</code>: Fornece um texto alternativo que descreve a imagem. Esse texto é exibido se a imagem não puder ser carregada.</li>
+            <li><code>width</code>: Define a largura da imagem (em pixels ou porcentagem).</li>
+            <li><code>height</code>: Define a altura da imagem (em pixels ou porcentagem).</li>
+            <li><code>title</code>: Fornece um texto adicional que aparece como uma dica quando o usuário passa o mouse sobre a imagem.</li>
+        </ul>
+        <h2>Importância do Atributo <code>alt</code>:</h2>
+        <p>O atributo <code>alt</code> é importante por várias razões:</p>
+        <ul>
+            <li>Acessibilidade: Descreve a imagem para usuários com deficiências visuais que utilizam leitores de tela.</li>
+            <li>SEO: Ajuda os mecanismos de busca a entenderem o conteúdo da imagem, melhorando a indexação da página.</li>
+            <li>Fallback: Fornece um texto descritivo caso a imagem não possa ser carregada.</li>
+        </ul>
+    </div>
+</body>
+</html>
